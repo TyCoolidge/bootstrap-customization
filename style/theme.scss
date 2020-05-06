@@ -1,0 +1,19 @@
+//theme for compiling bootstrap
+
+$red: yellow;
+$green: skyblue;
+$enable-rounded: false !default;
+
+button.btn {
+  padding: map-get($map: $spacers, $key: 4);
+}
+
+button.btn-danger {
+  background-color: $blue;
+  border: 4px solid $black;
+}
+
+button.btn-success {
+  background-color: $green;
+  border: 4px solid $black;
+}
